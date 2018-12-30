@@ -24,6 +24,21 @@ var books = {
         this.booksCheckedOut.splice(this.booksCheckedOut.indexOf(randomBook), 1);
         this.bookLog.push(randomBook);
         
+        checkedIn: function() {
+        var randomBook = this.booksCheckedOut[Math.floor(Math.random() * this.booksCheckedOut.length)];
+        this.booksCheckedOut.splice(this.booksCheckedOut.indexOf(randomBook), 1);
+        this.bookLog.push(randomBook);
+        
+        checkedIn: function() {
+        var randomBook = this.booksCheckedOut[Math.floor(Math.random() * this.booksCheckedOut.length)];
+        this.booksCheckedOut.splice(this.booksCheckedOut.indexOf(randomBook), 1);
+        this.bookLog.push(randomBook);
+        
+        checkedIn: function() {
+        var randomBook = this.booksCheckedOut[Math.floor(Math.random() * this.booksCheckedOut.length)];
+        this.booksCheckedOut.splice(this.booksCheckedOut.indexOf(randomBook), 1);
+        this.bookLog.push(randomBook);
+        
         
     }
 
