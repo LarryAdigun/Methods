@@ -17,8 +17,6 @@ var cars = {
             this.carsBooked.push(randomCar);
             
         }
-    }
-}
     },
     keepBooking: function() {
         var i;
@@ -31,6 +29,6 @@ var cars = {
     
 }
 };
-console.log(cars.keepBooking())
-console.log(cars.carsAvailable)
-console.log(cars.carsBooked)
+console.log(cars.keepBooking());
+console.log(cars.carsAvailable);
+console.log(cars.carsBooked);
